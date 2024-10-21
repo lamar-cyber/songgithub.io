@@ -1,0 +1,80 @@
+body {
+    font-family: lucida console, arial, helvetica;
+    background-color: light rgb(245, 6, 245);   
+}
+
+header {
+    background: linear-gradient(to right, #4104b4, #3d48e2);
+    color: white;
+    padding: 20px 0;
+    border-style:solid ;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #333;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    background-color: #fff;
+     border: 1px solid #b1a7a7;
+    box-sizing: border-box;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #1b1b1b;
+    padding: 10px 0;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #ec0b0b;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+.card-custom {
+    background-color: #e5ecf3;
+    border: 1px solid #067df3;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }   
+ul li::before {
+    content: "✔";
+    color: #0997e9;
+    font-size: larger;
+}
+ul li::after {
+    content: "😍";
+}
+navbar li {
+    padding: 5px;
+    text-align: center;
+}
+  @media screen and(max-width: 600px) {
+    div, body, section{
+   width: 100px;
+    }
+  }  
+
+
+    
